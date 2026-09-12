@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TvTracker.Data/TvTracker.Data.csproj" />
+    <Project Path="src/TvTracker.Discord/TvTracker.Discord.csproj" />
+    <Project Path="src/TvTracker.Host/TvTracker.Host.csproj" />
+    <Project Path="src/TvTracker.Notifications/TvTracker.Notifications.csproj" />
+    <Project Path="src/TvTracker.Shared/TvTracker.Shared.csproj" />
+    <Project Path="src/TvTracker.Tmdb/TvTracker.Tmdb.csproj" />
+  </Folder>
+</Solution>
