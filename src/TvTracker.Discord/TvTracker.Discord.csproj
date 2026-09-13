@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\TvTracker.Shared\TvTracker.Shared.csproj" />
     <ProjectReference Include="..\TvTracker.Tmdb\TvTracker.Tmdb.csproj" />
+    <ProjectReference Include="..\TvTracker.Tracking\TvTracker.Tracking.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
