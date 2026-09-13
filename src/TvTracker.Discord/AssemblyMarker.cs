@@ -1,6 +1,3 @@
 ﻿namespace TvTracker.Discord;
 
-public class Class1
-{
-
-}
+public interface IAssemblyMarker;

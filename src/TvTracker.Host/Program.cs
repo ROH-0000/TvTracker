@@ -1,5 +1,7 @@
 using NetCord.Hosting.Gateway;
+using NetCord.Hosting.Services;
 using NetCord.Hosting.Services.ApplicationCommands;
+using TvTracker.Discord;
 
 var builder = Host.CreateApplicationBuilder(args);
 
@@ -12,6 +14,6 @@ builder.Services
 
 var host = builder.Build();
 
-host.AddSlashCommand("square", "Square!", (int a) => $"{a}² = {a * a}");
+host.AddModules(typeof(IAssemblyMarker).Assembly);
 
 await host.RunAsync();
